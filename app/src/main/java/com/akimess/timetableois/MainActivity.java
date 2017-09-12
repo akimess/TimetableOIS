@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         courseList = new ArrayList<>();
         adapter = new Adapter(this, courseList);
 
-        RecyclerView.LayoutManager mLayoutManager = new GridLayoutManager(this, 2);
+        RecyclerView.LayoutManager mLayoutManager = new GridLayoutManager(this, 1);
         recyclerView.setLayoutManager(mLayoutManager);
         recyclerView.setItemAnimator(new DefaultItemAnimator());
         recyclerView.setAdapter(adapter);
