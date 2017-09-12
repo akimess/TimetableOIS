@@ -32,13 +32,15 @@
                 android:textSize="30sp"
                 android:textStyle="bold" />
 
-            <TextView
+            <com.akimess.timetableois.widgets.AutoResizeTextView
                 android:id="@+id/lecturer"
                 android:layout_width="200dp"
                 android:layout_height="30dp"
                 android:layout_alignBottom="@+id/code"
                 android:layout_alignEnd="@+id/location"
                 android:text="lecturer"
+                android:ellipsize="none"
+                android:maxLines="2"
                 android:textAlignment="viewEnd"
                 android:textSize="25sp" />
 
