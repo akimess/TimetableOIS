@@ -39,6 +39,16 @@ public class Course {
 
     }
 
+    public Course(String name, String lecturer, String type, String location, String code, Date startTime, Date endTime) {
+        this.name = name;
+        this.lecturer = lecturer;
+        this.type = type;
+        this.location = location;
+        this.code = code;
+        this.startTime = startTime;
+        this.endTime = endTime;
+    }
+
     public String getName() {
         return name;
     }

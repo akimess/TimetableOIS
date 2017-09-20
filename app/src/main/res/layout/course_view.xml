@@ -10,6 +10,10 @@
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
         app:cardCornerRadius="10dp"
         app:cardElevation="3dp">
 
@@ -25,10 +29,10 @@
                 android:layout_alignParentTop="true"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
-                android:gravity="bottom"
-                android:text="title"
                 android:ellipsize="none"
+                android:gravity="bottom"
                 android:maxLines="2"
+                android:text="title"
                 android:textSize="30sp"
                 android:textStyle="bold" />
 
@@ -38,9 +42,9 @@
                 android:layout_height="30dp"
                 android:layout_alignBottom="@+id/code"
                 android:layout_alignEnd="@+id/location"
-                android:text="lecturer"
                 android:ellipsize="none"
                 android:maxLines="2"
+                android:text="lecturer"
                 android:textAlignment="viewEnd"
                 android:textSize="25sp" />
 
